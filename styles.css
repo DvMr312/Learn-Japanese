@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+body{
+    background-color: rgb(239, 153, 250);
+    font-family: 'Poppins';
+    
+}
+
+.navbar{    
+    position: absolute;
+    padding: 30px;    
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;  
+      
+    
+}
+
+.logo{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;   
+}
+
+.navbar.nav-links{
+    position: absolute;
+    display: flex;
+    margin-right: 700px;
+    
+}
+
+.nav-links a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;    
+        
+}
+
+.nav-links li:hover {
+    text-decoration: none;
+    transform: scale(1.05);
+    -webkit-transition-duration: 0.5s;  
+    transition-duration: 0.5s;  
+    
+}
+
+.nav-links li a:hover {
+    color: rgb(99, 99, 249);
+}
+
+.nav-links ul {
+    display: flex;  
+    font-weight: bold;
+            
+}
+
+.nav-links ul li{
+    margin: 0 23px;
+}
+
+.nav-links .btn{
+    position: absolute;
+    margin: 0 23px;
+    background: #1E90FF;    
+    width: 100px;
+    padding: 10px;
+    right: 435px;
+    top: 28px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;    
+    transition-property: box-shadow, transform;
+}
+
+.btn:hover, .btn.focus, .btn:active{
+    box-shadow: 0 0 20px rgba(0, 107, 222, 0.496);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    
+}
+
+h1 {
+    position: relative;
+    margin-left: 150px;
+    top: 150px;
+}
+
+pre{
+    position: relative;
+    margin-left: 120px;
+    top: 150px;
+    font-family: 'Poppins';
+}
+
+.btn2{
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.Btn2 .btn2{
+    position: absolute;        
+    background: #1E90FF;    
+    width: 100px;
+    padding: 10px;
+    left: 149px;
+    top: 359px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;    
+    transition-property: box-shadow, transform;
+}
+
+.btn2:hover, .btn2.focus, .btn2:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.496);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.quizL{
+    position: absolute;
+    display: flex; 
+    top: 659px;   
+    margin-left: 150px;  
+}
+
+p5{
+    position: absolute;
+    display: flex;
+    top: 759px;
+    margin-left: 160px;
+}
+
+.flag {
+    position: absolute;
+    display: flex; 
+    top: 659px;   
+    margin-left: 750px;
+}
+
+p6{
+    position: absolute;
+    display: flex;
+    top: 759px;
+    margin-left: 759px;
+}
+
+.brain{
+    position: absolute;
+    display: flex;
+    top: 659px;
+    margin-left: 1359px;
+}
+
+p7{
+    position: absolute;
+    display: flex;
+    top: 759px;
+    margin-left: 1359px;
+}
+
+.saku {
+    position: absolute;
+    display: flex;
+    top: 100px;
+}
+

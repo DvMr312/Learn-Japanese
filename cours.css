@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+body{
+    background-color: rgb(239, 153, 250);
+    font-family: 'Poppins';
+    
+}
+
+.navbar{    
+    position: absolute;
+    padding: 30px;    
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;  
+      
+    
+}
+
+.logo{
+    color: white;
+    font-weight: bold;
+    font-size: 25px; 
+    
+       
+    
+}
+
+.navbar.nav-links{
+    position: absolute;
+    display: flex;
+    margin-right: 700px;
+    
+}
+
+.nav-links a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;    
+        
+}
+
+.nav-links li:hover {
+    text-decoration: none;
+    transform: scale(1.05);
+    -webkit-transition-duration: 0.5s;    
+    
+}
+
+.nav-links li a:hover {
+    color: rgb(99, 99, 249);
+}
+
+.nav-links ul {
+    display: flex;  
+    font-weight: bold;
+            
+}
+
+.nav-links ul li{
+    margin: 0 23px;
+}
+
+.FrenchFL{
+    position: absolute;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-top: 140px;
+    margin-left: 120px;
+}
+
+.Base{
+    position: absolute;
+    margin-top: 250px;
+    padding-left: 50px;
+}
+
+.Base p{
+    font-weight: 600;
+}
+
+.JapanFL{
+    position: absolute;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-top: 140px;
+    margin-left: 680px;
+}
+.BaseJP{
+    position: absolute;
+    margin-top: 250px;
+    padding-left: 480px;
+}
+.BaseJP p{
+    font-weight: 600;
+}
