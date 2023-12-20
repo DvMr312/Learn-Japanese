@@ -1,0 +1,2549 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(239, 153, 250);
+    font-family: 'Poppins';
+}
+
+.navbar{    
+    position: absolute;
+    padding: 30px;    
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;     
+    
+}
+
+.logo{
+    color: white;
+    font-weight: bold;
+    font-size: 25px; 
+       
+    
+}
+
+.navbar.nav-links{
+    position: absolute;
+    display: flex;
+    margin-right: 700px;
+    
+}
+
+.nav-links a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;    
+        
+}
+
+.nav-links li:hover {
+    text-decoration: none;
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;    
+    
+}
+
+.nav-links li a:hover {
+    color: rgb(99, 99, 249);
+}
+
+.nav-links ul {
+    display: flex;  
+    font-weight: bold;
+            
+}
+
+.nav-links ul li{
+    margin: 0 23px;
+}
+
+
+.nav-links .btn{
+    position: absolute;
+    margin: 0 23px;
+    background: #1E90FF;    
+    width: 100px;
+    padding: 10px;
+    right: 435px;
+    top: 28px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;    
+    transition-property: box-shadow, transform;
+}
+
+.btn:hover, .btn.focus, .btn:active{
+    box-shadow: 0 0 20px rgba(0, 107, 222, 0.496);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    
+}
+
+h1 {
+    position: relative;
+    margin-left: 150px;
+    top: 150px;
+    
+}
+
+.Eng{
+    position: relative;
+    top: 200px;
+    margin-left: 150px;
+    
+
+}
+
+.UsFl{
+    position: absolute;
+    top: 195px;
+    margin-left: 145px;
+}
+
+.Fr{
+    position: relative;
+    top: 96px;
+    margin-left: 750px;
+}
+
+.FrFl{
+    position: absolute;
+    margin-left: 750px;
+    top: 195px;
+}
+
+.Br {
+    position: absolute;
+    bottom: 415px;
+    margin-left: 150px;
+}
+
+.BrFl {
+    position: absolute;
+    bottom: 520px;
+    margin-left: 145px;
+}
+
+.Jap {
+    position: absolute;
+    margin-left: 750px;
+    bottom: 415px;
+
+}
+
+.JapFl {
+    
+    position: absolute;
+    bottom: 520px;
+    margin-left: 750px;
+
+}
+
+.Kermit{
+    position: absolute;
+    margin-left: 1598px;
+    top: 195px;
+    z-index: 1;
+}
+
+.titleK {
+    position: absolute;
+    margin-left: 1545px;
+    top: 290px;
+    z-index: 1;
+    color: rgba(112, 112, 112, 0.885);
+    text-shadow: black;
+    font-family: 'Poppins';
+}
+
+.glass-bg {
+    position: absolute;    
+    display: flex;
+    margin-left: 1450px;
+    width: 400px;
+    height: 500px;    
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+}
+
+.btns {
+    position: absolute;
+    top: 120px;
+    left: 15px;
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.btnNAG {
+    border: none;
+    outline: none;
+    padding: .8rem 2rem;
+    font-family: 'Poppins' , sans-serif;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: #6366f1;
+
+}
+
+.text{
+    position: absolute;
+    padding: 0.4rem;
+    background-color: rgba(255, 255, 255, 0);    
+    
+}
+
+.text h2{
+    display: inline-block;
+    position: absolute;
+    margin-bottom: 1rem;
+    align-items: center;
+    right: 150px;
+    top: -100%;
+    
+}
+
+.text::after{
+    content: "";
+    position: absolute;
+    top: -20px;
+    right: 20%;
+    z-index: -1;
+    width: 250px;
+    height: 250px;
+    background-color: #6366f1;
+    opacity: .5;
+    border-radius: 50%;
+}
+
+.text{
+    display: none;
+}
+
+.quizL{
+    position: absolute;
+    display: flex; 
+    top: 729px;   
+    margin-left: 150px;  
+}
+
+p5{
+    position: absolute;
+    display: flex;
+    top: 829px;
+    margin-left: 160px;
+}
+
+.flag {
+    position: absolute;
+    display: flex; 
+    top: 729px;   
+    margin-left: 730px;
+}
+
+p6{
+    position: absolute;
+    display: flex;
+    top: 829px;
+    margin-left: 739px;
+}
+
+.brain{
+    position: absolute;
+    display: flex;
+    top: 759px;
+    margin-left: 1359px;
+}
+
+p7{
+    position: absolute;
+    display: flex;
+    top: 829px;
+    margin-left: 1359px;
+}
+
+.navbar .menu-hamburger{
+    display: none;
+    position: absolute;
+    top: 33px;
+    right: 30px;
+    width: 35px;
+}
+
+
+
+
+/*-----------------------------RESPONSIVE-----------------*/
+
+
+/*--------------------------Responsive Desktop Laptop-------------------*/
+/*Responsive 1629 x 850*/
+@media screen and (max-width: 1629px) and (max-height: 850px){
+    .navbar.menu-hamburger{
+        display: none;
+    }
+    .BrFl{
+        position: absolute;
+        display: flex;
+        top: 45%;
+    }
+    .Br{
+        position: absolute;
+        display: flex;
+        top: 51%;
+    }
+    .JapFl{
+        position: absolute;
+        display: flex;
+        top: 45%;
+    }
+    .Jap{
+        position: absolute;
+        display: flex;
+        top: 51%;
+    }
+    .glass-bg{
+        position: absolute;
+        display: flex;
+        top: 70%;
+        margin-left: 35%;
+    }
+    .quizL{
+        position: absolute;
+        display: flex;
+        margin-left: 4%;
+        top: 1200px;
+    }
+    p5{
+        position: absolute;
+        display: flex;
+        margin-left: 4%;
+        top: 1300px;
+    }
+    .flag{
+        position: absolute;
+        display: flex;
+        margin-left: 30%;
+        top: 1200px;
+    }
+    p6{
+        position: absolute;
+        display: flex;
+        margin-left: 30%;
+        top: 1300px;
+    }
+    .brain{
+        position: absolute;
+        display: flex;
+        margin-left: 65%;
+        top: 1200px;
+    }
+    p7{
+        position: absolute;
+        display: flex;
+        margin-left: 65%;
+        top: 1300px;
+    }
+    .titleK{
+        position: absolute;
+        display: flex;
+        top: 75%;
+        margin-left: 41%;
+    }
+    .Kermit{
+        position: absolute;
+        display: flex;
+        top: 63%;
+        margin-left: 44%;
+    }
+    
+}
+/*Responsive 1280 x 950*/
+@media screen and (max-width: 1280px) and (max-height: 950px){
+    .navbar.menu-hamburger{
+        display: none;
+    }
+    .BrFl{
+        position: absolute;
+        display: flex;
+        top: 45%;
+    }
+    .Br{
+        position: absolute;
+        display: flex;
+        top: 51%;
+    }
+    .JapFl{
+        position: absolute;
+        display: flex;
+        top: 45%;
+    }
+    .Jap{
+        position: absolute;
+        display: flex;
+        top: 51%;
+    }
+    .glass-bg{
+        position: absolute;
+        display: flex;
+        top: 70%;
+        margin-left: 35%;
+    }
+    .quizL{
+        position: absolute;
+        display: flex;
+        margin-left: 4%;
+        top: 1000px;
+    }
+    p5{
+        position: absolute;
+        display: flex;
+        margin-left: 4%;
+        top: 1100px;
+    }
+    .flag{
+        position: absolute;
+        display: flex;
+        margin-left: 47%;
+        top: 1200px;
+    }
+    p6{
+        position: absolute;
+        display: flex;
+        margin-left: 35%;
+        top: 1300px;
+    }
+    .brain{
+        position: absolute;
+        display: flex;
+        margin-left: 68%;
+        top: 1010px;
+        width: 80px;
+    }
+    p7{
+        position: absolute;
+        display: flex;
+        margin-left: 68%;
+        top: 1100px;
+    }
+    .titleK{
+        position: absolute;
+        display: flex;
+        top: 75%;
+        margin-left: 41%;
+    }
+    .Kermit{
+        position: absolute;
+        display: flex;
+        top: 63%;
+        margin-left: 44%;
+    }
+    
+}
+/*Responsive 1920 x 1080*/
+@media screen and (max-width: 1920px) and (max-height: 1080px){
+    .navbar.menu-hamburger{
+        display: none;
+    }
+    
+}
+/*Responsive 1630 x 944*/
+@media screen and (max-width: 1630px) and (max-height: 944px){
+    .navbar.menu-hamburger{
+        display: none;
+    }
+    .BrFl{
+        position: absolute;
+        display: flex;
+        top: 40%;
+    }
+    .Br{
+        position: absolute;
+        display: flex;
+        top: 45%;
+    }
+    .JapFl{
+        position: absolute;
+        display: flex;
+        top: 40%;
+    }
+    .Jap{
+        position: absolute;
+        display: flex;
+        top: 45%;
+    }
+    .glass-bg{
+        position: absolute;
+        display: flex;
+        top: 64%;
+        margin-left: 35%;
+    }
+    .quizL{
+        position: absolute;
+        display: flex;
+        margin-left: 4%;
+        top: 1150px;
+    }
+    p5{
+        position: absolute;
+        display: flex;
+        margin-left: 4%;
+        top: 1250px;
+    }
+    .flag{
+        position: absolute;
+        display: flex;
+        margin-left: 30%;
+        top: 1150px;
+    }
+    p6{
+        position: absolute;
+        display: flex;
+        margin-left: 30%;
+        top: 1250px;
+    }
+    .brain{
+        position: absolute;
+        display: flex;
+        margin-left: 65%;
+        top: 1150px;        
+        width: 80px;
+    }
+    p7{
+        position: absolute;
+        display: flex;
+        margin-left: 65%;
+        top: 1250px;
+    }
+    .titleK{
+        position: absolute;
+        display: flex;
+        top: 68%;
+        margin-left: 41%;
+    }
+    .Kermit{
+        position: absolute;
+        display: flex;
+        top: 58%;
+        margin-left: 44%;
+    }
+    
+}
+/*Responsive 1280 x 800*/
+@media screen and (max-width: 1280px) and (max-height: 800px){
+    .navbar.menu-hamburger{
+        display: none;
+    }
+    .BrFl{
+        position: absolute;
+        display: flex;
+        top: 46%;
+    }
+    .Br{
+        position: absolute;
+        display: flex;
+        top: 51%;
+    }
+    .JapFl{
+        position: absolute;
+        display: flex;
+        top: 56%;
+    }
+    .Jap{
+        position: absolute;
+        display: flex;
+        top: 62%;
+    }
+    .glass-bg{
+        position: absolute;
+        display: flex;
+        top: 68%;
+        margin-left: 17%;
+    }
+    .quizL{
+        position: absolute;
+        display: flex;
+        margin-left: 57%;
+        top: 610px;
+    }
+    p5{
+        position: absolute;
+        display: flex;
+        margin-left: 57%;
+        top: 700px;
+    }
+    .flag{
+        position: absolute;
+        display: flex;
+        margin-left: 57%;
+        top: 750px;
+    }
+    p6{
+        position: absolute;
+        display: flex;
+        margin-left: 57%;
+        top: 850px;
+    }
+    .brain{
+        position: absolute;
+        display: flex;
+        margin-left: 57%;
+        top: 900px;        
+        width: 80px;
+    }
+    p7{
+        position: absolute;
+        display: flex;
+        margin-left: 57%;
+        top: 1000px;
+    }
+    .titleK{
+        position: absolute;
+        display: flex;
+        top: 74%;
+        margin-left: 25%;
+    }
+    .Kermit{
+        position: absolute;
+        display: flex;
+        top: 61%;
+        margin-left: 30%;
+    }
+    
+    
+}
+/*Responsive 1440 x 900*/
+@media screen and (max-width: 1440px) and (max-height: 900px){
+    .navbar.menu-hamburger{
+        display: none;
+    }
+    
+}
+
+
+/*--------------------------Responsive Tablets-------------------*/
+/*Responsive Tablet 768 x 838*/
+@media screen and (max-width: 768px) and (max-height: 838px) {
+
+}
+/*Responsive IPad et IPad Mini 768 x 1024*/
+@media screen and (max-width: 768px) and (max-height: 1024px) {  
+    .navbar{
+        padding: 0%;
+    }
+    .logo{
+        position: absolute;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;   
+        top: 33px;
+        left: 3%;
+    }
+    .btn{
+        display: none;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgba(0, 0, 255, 0.619);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.8s ease-in-out;
+    }
+    .nav-links.mobile-menu{
+        margin-left: 0;
+    }
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .menu-hamburger{
+    display: block;
+    position: absolute;
+    top: 33px;
+    right: 30px;
+    width: 35px;
+    z-index: 1;
+    cursor: pointer;
+    }
+    .nav-links ul li{
+        display: flex;
+        margin: 23px 0;
+        font-size: 23px;
+    }
+    h1{
+        display: flex;
+        margin-left: 26%;
+    }
+    .UsFl{
+        display: flex;
+        margin-left: 19%;
+    }
+    .Eng{
+        display: flex;
+        top: 30%;
+    }
+    .FrFl{
+        display: flex;
+        top: 43%;
+        margin-left: 19%;
+    }
+    .Fr{
+        display: flex;
+        margin-left: 20%;
+        top: 49%;
+    }
+    .BrFl{
+        position: absolute;
+        display: flex;
+        top: 62%;
+    }
+    .Br{
+        position: absolute;
+        display: flex;
+        top: 68%;
+    }
+    .JapFl{
+        position: absolute;
+        display: flex;
+        top: 81%;
+        margin-left: 20%;
+    }
+    .Jap{
+        position: absolute;
+        display: flex;
+        top: 87%;
+        margin-left: 20%;
+    }
+    .glass-bg{
+        position: absolute;
+        display: flex;
+        top: 106%;
+        margin-left: 25%;
+    }
+    .titleK{
+        position: absolute;
+        display: flex;
+        top: 112%;
+        margin-left: 18%;
+    }
+    .Kermit{
+        position: absolute;
+        display: flex;
+        top: 102%;
+        margin-left: 45%;
+    }
+    .quizL{
+        position: absolute;
+        display: flex;
+        top: 170%;
+    }
+    p5{
+        position: absolute;
+        display: flex;
+        top: 182%;
+    }
+    .flag{
+        position: absolute;
+        display: flex;
+        top: 188%;
+        margin-left: 4%;
+    }
+    p6{
+        position: absolute;
+        display: flex;
+        margin-left: 2%;
+        top: 199%;
+    }
+    .brain{
+        position: absolute;
+        display: flex;
+        top: 205%;
+        margin-left: 2%;
+    }
+    p7{
+        position: absolute;
+        display: flex;
+        top: 214%;
+        margin-left: 2%;
+
+    }
+}
+/*Responsive IPad Pro 1024 x 1366*/
+@media screen and (max-width: 1024px) and (max-height: 1366px) {
+    h1{
+        display: flex;
+        left: 27%;
+        
+    }
+    .navbar{
+        padding: 0%;
+    }
+    .logo{
+        position: absolute;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;   
+        top: 33px;
+        left: 3%;
+    }
+    .btn{
+        display: none;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgba(0, 0, 255, 0.619);
+        backdrop-filter: blur(5px);
+        z-index: 2;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.8s ease-in-out;
+    }
+    .nav-links.mobile-menu{
+        margin-left: 0;
+    }
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .menu-hamburger{
+    display: block;
+    position: absolute;
+    top: 33px;
+    right: 30px;
+    width: 35px;
+    z-index: 1;
+    cursor: pointer;
+    }
+    .nav-links ul li{
+        display: flex;
+        margin: 23px 0;
+        font-size: 23px;
+    }
+    .Eng{
+        position: absolute;
+        display: flex;
+        top: 19%;
+    }
+    .FrFl{
+        position: absolute;
+        display: flex;
+        margin-left: 14%;
+        top: 28%;
+    }
+    .Fr{
+        position: absolute;
+        margin-left: 14%;
+        top: 32%;
+    }
+    .BrFl{
+        position: absolute;
+        display: flex;
+        top: 40%;
+    }
+    .Br{
+        position: absolute;
+        display: flex;
+        top: 44%;
+    }
+    .JapFl{
+        position: absolute;
+        display: flex;
+        margin-left: 14%;
+        top: 52%;
+    }
+    .Jap{
+        position: absolute;
+        display: flex;
+        margin-left: 14%;
+        top: 56%;
+    }
+    .quizL{
+        position: absolute;
+        display: flex;
+        margin-left: 11%;
+        top: 65%;
+    }
+    p5{
+        position: absolute;
+        display: flex;
+        margin-left: 11%;
+        top: 72%;
+    }
+    .flag{
+        position: absolute;
+        display: flex;
+        margin-left: 11%;
+        top: 77%;
+    }
+    p6{
+        position: absolute;
+        display: flex;
+        margin-left: 11%;
+        top: 84%;
+    }
+    .brain{
+        position: absolute;
+        display: flex;
+        margin-left: 11%;
+        top: 88%;
+        width: 80px;
+    }
+    p7{
+        position: absolute;
+        display: flex;
+        margin-left: 11%;
+        top: 94%;
+    }
+    .glass-bg{
+        position: absolute;
+        display: flex;
+        margin-left: 60%;
+        top: 63%;
+    }
+    .Kermit{
+        position: absolute;
+        display: flex;
+        margin-left: 75%;
+        top: 59%;
+    }
+    .titleK{
+        position: absolute;
+        display: flex;
+        margin-left: 43%;
+        top: 66%;
+    }
+
+}
+/*Responsive IPad Air 820 x 1180*/
+@media screen and (max-width: 820px) and (max-height: 1180px) {
+    .navbar{
+        padding: 0%;
+    }
+    .logo{
+        position: absolute;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;   
+        top: 33px;
+        left: 3%;
+    }
+    .btn{
+        display: none;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgba(0, 0, 255, 0.619);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.8s ease-in-out;
+    }
+    .nav-links.mobile-menu{
+        margin-left: 0;
+    }
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .menu-hamburger{
+    display: block;
+    position: absolute;
+    top: 33px;
+    right: 30px;
+    width: 35px;
+    z-index: 1;
+    cursor: pointer;
+    }
+    .nav-links ul li{
+        display: flex;
+        margin: 23px 0;
+        font-size: 23px;
+    }
+    h1{
+        display: flex;
+        margin-left: 19%;
+    }
+    .UsFl{
+        display: flex;
+        top: 20%;
+    }
+    .Eng{
+        display: flex;
+        top: 25%;
+    }
+    .FrFl{
+        display: flex;
+        top: 34%;
+        margin-left: 17%;
+    }
+    .Fr{
+        display: flex;
+        top: 39%;
+        margin-left: 17%;
+    }
+    .BrFl{
+        display: flex;
+        top: 48%;
+        margin-left: 17%;
+    }
+    .Br{
+        display: flex;
+        top: 52%;
+    }
+    .JapFl{
+        display: flex;
+        top: 61%;
+        margin-left: 17%;
+    }
+    .Jap{
+        display: flex;
+        top: 65%;
+        margin-left: 17%;
+    }
+    .glass-bg{
+        display: flex;
+        top: 80%;
+        margin-left: 27%;
+    }
+    .Kermit{
+        display: flex;
+        top: 76%;
+        margin-left: 46%;
+    }
+    .titleK{
+        display: flex;
+        top: 85%;
+        margin-left: 12%;
+    }
+    .quizL{
+        display: flex;
+        top: 120%;
+    }
+    p5{
+        display: flex;
+        top: 128%;
+    }
+    .flag{
+        display: flex;
+        top: 133%;
+    }
+    p6{
+        display: flex;
+        top: 141%;
+    }
+    .brain{
+        display: flex;
+        top: 146%;
+    }
+    p7{
+        display: flex;
+        top: 153%;
+    }
+}
+/*Responsive IPad Air 848 x 850*/
+@media screen and (max-width: 848px) and (max-height: 850px) {
+    h1{
+        display: flex;
+        left: 26%;
+        
+    }
+    .navbar{
+        padding: 0%;
+    }
+    .logo{
+        position: absolute;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;   
+        top: 33px;
+        left: 3%;
+    }
+    .btn{
+        display: none;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgba(0, 0, 255, 0.619);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.8s ease-in-out;
+    }
+    .nav-links.mobile-menu{
+        margin-left: 0;
+    }
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .menu-hamburger{
+    display: block;
+    position: absolute;
+    top: 33px;
+    right: 30px;
+    width: 35px;
+    z-index: 1;
+    cursor: pointer;
+    }
+    .nav-links ul li{
+        display: flex;
+        margin: 23px 0;
+        font-size: 23px;
+    }
+    h1{
+        position: absolute;
+        display: flex;
+        left: 27%;
+        
+    }
+    .navbar{
+        padding: 0%;
+    }
+    .logo{
+        position: absolute;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;   
+        top: 33px;
+        left: 3%;
+    }
+    .btn{
+        display: none;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgba(0, 0, 255, 0.619);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.8s ease-in-out;
+    }
+    .nav-links.mobile-menu{
+        margin-left: 0;
+    }
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .menu-hamburger{
+    display: block;
+    position: absolute;
+    top: 33px;
+    right: 30px;
+    width: 35px;
+    z-index: 1;
+    cursor: pointer;
+    }
+    .nav-links ul li{
+        display: flex;
+        margin: 23px 0;
+        font-size: 23px;
+    }
+    .UsFl{
+        display: flex;
+        top: 26%;
+    }
+    .Eng{
+        display: flex;
+        top: 32%;
+    }
+    .FrFl{
+        display: flex;
+        top: 44%;
+        margin-left: 17%;
+    }
+    .Fr{
+        display: flex;
+        top: 50%;
+        margin-left: 17%;
+    }
+    .BrFl{
+        display: flex;
+        top: 62%;
+        margin-left: 17%;
+    }
+    .Br{
+        display: flex;
+        top: 68%;
+    }
+    .JapFl{
+        display: flex;
+        top: 81%;
+        margin-left: 17%;
+    }
+    .Jap{
+        display: flex;
+        top: 87%;
+        margin-left: 17%;
+    }
+    .glass-bg{
+        display: flex;
+        top: 105%;
+        margin-left: 27%;
+    }
+    .Kermit{
+        display: flex;
+        top: 100%;
+        margin-left: 44%;
+    }
+    .titleK{
+        
+        display: flex;
+        top: 111%;
+        margin-left: 10%;
+    }
+    .quizL{
+        display: flex;
+        top: 170%;
+    }
+    p5{
+        display: flex;
+        top: 181%;
+    }
+    .flag{
+        display: flex;
+        top: 187%;
+    }
+    p6{
+        display: flex;
+        top: 198%;
+    }
+    .brain{
+        display: flex;
+        top: 204%;
+    }
+    p7{
+        display: flex;
+        top: 213%;
+    }
+}
+
+
+/*--------------------------Responsive Iphone-------------------*/
+/*Responsive Iphone 12 Pro Max 428 x 926*/
+@media screen and (max-width: 428px) and (max-height: 926px) {
+    h1{
+        position: absolute;
+        display: flex;
+        left: 23%;
+        
+    }
+    .navbar{
+        padding: 0%;
+    }
+    .logo{
+        position: absolute;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;   
+        top: 33px;
+        left: 3%;
+    }
+    .btn{
+        display: none;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgba(0, 0, 255, 0.619);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 90vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.8s ease-in-out;
+    }
+    .nav-links.mobile-menu{
+        margin-left: 0;
+    }
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .menu-hamburger{
+    display: block;
+    position: absolute;
+    top: 33px;
+    right: 30px;
+    width: 35px;
+    z-index: 1;
+    cursor: pointer;
+    }
+    .nav-links ul li{
+        display: flex;
+        margin: 23px 0;
+        font-size: 23px;
+    }
+    .UsFl{
+        display: flex;
+        top: 26%;
+        margin-left: 0%;
+    }
+    .Eng{
+        display: flex;
+        top: 32%;
+        margin-left: 2%;
+    }
+    .FrFl{
+        display: flex;
+        top: 60%;
+        margin-left: 0%;
+    }
+    .Fr{
+        display: flex;
+        top: 67%;
+        margin-left: 2%;
+    }
+    .BrFl{
+        display: flex;
+        top: 90%;
+        margin-left: 0%;
+    }
+    .Br{
+        display: flex;
+        top: 96%;
+        margin-left: 2%;
+    }
+    .JapFl{
+        display: flex;
+        top: 119%;
+        margin-left: 0%;
+    }
+    .Jap{
+        display: flex;
+        top: 125%;
+        margin-left: 0%;
+    }
+    .glass-bg{
+        display: flex;
+        top: 147%;
+        margin-left: 4%;
+    }
+    .Kermit{
+        display: flex;
+        top: 142%;
+        margin-left: 40%;
+    }
+    .titleK{
+        
+        display: flex;
+        top: 153%;
+        margin-left: 7%;
+    }
+    .quizL{
+        display: flex;
+        top: 209%;
+    }
+    p5{
+        display: flex;
+        top: 220%;
+    }
+    .flag{
+        display: flex;
+        top: 225%;
+    }
+    p6{
+        display: flex;
+        top: 235%;
+    }
+    .brain{
+        display: flex;
+        top: 245%;
+    }
+    p7{
+        display: flex;
+        top: 253%;
+    } 
+    
+}
+/*Responsive Iphone 12 Pro 390 x 844*/
+@media screen and (max-width: 390px) and (max-height: 844px) {
+    h1{
+        position: absolute;
+        display: flex;
+        left: 23%;        
+    }
+    .navbar{
+        padding: 0%;
+    }
+    .logo{
+        position: absolute;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;   
+        top: 33px;
+        left: 3%;
+    }
+    .btn{
+        display: none;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgba(0, 0, 255, 0.619);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 90vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.8s ease-in-out;
+    }
+    .nav-links.mobile-menu{
+        margin-left: 0;
+    }
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .menu-hamburger{
+    display: block;
+    position: absolute;
+    top: 33px;
+    right: 30px;
+    width: 35px;
+    z-index: 1;
+    cursor: pointer;
+    }
+    .nav-links ul li{
+        display: flex;
+        margin: 23px 0;
+        font-size: 23px;
+    }
+    .UsFl{
+        display: flex;
+        top: 31%;
+        margin-left: 0%;
+    }
+    .Eng{
+        display: flex;
+        top: 38%;
+        margin-left: 2%;
+    }
+    .FrFl{
+        display: flex;
+        top: 67%;
+        margin-left: 0%;
+    }
+    .Fr{
+        display: flex;
+        top: 74%;
+        margin-left: 2%;
+    }
+    .BrFl{
+        display: flex;
+        top: 99%;
+        margin-left: 0%;
+    }
+    .Br{
+        display: flex;
+        top: 105%;
+        margin-left: 2%;
+    }
+    .JapFl{
+        display: flex;
+        top: 133%;
+        margin-left: 0%;
+    }
+    .Jap{
+        display: flex;
+        top: 139%;
+        margin-left: 0%;
+    }
+    .glass-bg{
+        display: flex;
+        top: 168%;
+        margin-left: 5%;
+        width: 90%;
+    }
+    .Kermit{
+        display: flex;
+        top: 162%;
+        margin-left: 40%;
+    }
+    .titleK{
+        
+        display: flex;
+        top: 175%;
+        margin-left: 4%;
+    }
+    .quizL{
+        display: flex;
+        top: 245%;
+    }
+    p5{
+        display: flex;
+        top: 247%;
+    }
+    .flag{
+        display: flex;
+        top: 257%;
+    }
+    p6{
+        display: flex;
+        top: 269%;
+    }
+    .brain{
+        display: flex;
+        top: 279%;
+    }
+    p7{
+        display: flex;
+        top: 289%;
+    } 
+}
+/*Responsive Iphone 12 390 x 844*/
+@media screen and (max-width: 390px) and (max-height: 844px) {
+    h1{
+        position: absolute;
+        display: flex;
+        left: 23%;        
+    }
+    .navbar{
+        padding: 0%;
+    }
+    .logo{
+        position: absolute;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;   
+        top: 33px;
+        left: 3%;
+    }
+    .btn{
+        display: none;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgba(0, 0, 255, 0.619);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 90vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.8s ease-in-out;
+    }
+    .nav-links.mobile-menu{
+        margin-left: 0;
+    }
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .menu-hamburger{
+    display: block;
+    position: absolute;
+    top: 33px;
+    right: 30px;
+    width: 35px;
+    z-index: 1;
+    cursor: pointer;
+    }
+    .nav-links ul li{
+        display: flex;
+        margin: 23px 0;
+        font-size: 23px;
+    }
+    .UsFl{
+        display: flex;
+        top: 31%;
+        margin-left: 0%;
+    }
+    .Eng{
+        display: flex;
+        top: 38%;
+        margin-left: 2%;
+    }
+    .FrFl{
+        display: flex;
+        top: 67%;
+        margin-left: 0%;
+    }
+    .Fr{
+        display: flex;
+        top: 74%;
+        margin-left: 2%;
+    }
+    .BrFl{
+        display: flex;
+        top: 99%;
+        margin-left: 0%;
+    }
+    .Br{
+        display: flex;
+        top: 105%;
+        margin-left: 2%;
+    }
+    .JapFl{
+        display: flex;
+        top: 133%;
+        margin-left: 0%;
+    }
+    .Jap{
+        display: flex;
+        top: 139%;
+        margin-left: 0%;
+    }
+    .glass-bg{
+        display: flex;
+        top: 168%;
+        margin-left: 5%;
+        width: 90%;
+    }
+    .Kermit{
+        display: flex;
+        top: 162%;
+        margin-left: 40%;
+    }
+    .titleK{
+        
+        display: flex;
+        top: 175%;
+        margin-left: 4%;
+    }
+    .quizL{
+        display: flex;
+        top: 248%;
+    }
+    p5{
+        display: flex;
+        top: 247%;
+    }
+    .flag{
+        display: flex;
+        top: 257%;
+    }
+    p6{
+        display: flex;
+        top: 269%;
+    }
+    .brain{
+        display: flex;
+        top: 279%;
+    }
+    p7{
+        display: flex;
+        top: 289%;
+    } 
+}
+/*Responsive Iphone 12 Mini 360 x 780*/
+@media screen and (max-width: 360px) and (max-height: 780px) {
+    h1{
+        position: absolute;
+        display: flex;
+        left: 23%;        
+    }
+    .navbar{
+        padding: 0%;
+    }
+    .logo{
+        position: absolute;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;   
+        top: 33px;
+        left: 3%;
+    }
+    .btn{
+        display: none;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgba(0, 0, 255, 0.619);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.8s ease-in-out;
+    }
+    .nav-links.mobile-menu{
+        margin-left: 0;
+    }
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .menu-hamburger{
+    display: block;
+    position: absolute;
+    top: 33px;
+    right: 30px;
+    width: 35px;
+    z-index: 1;
+    cursor: pointer;
+    }
+    .nav-links ul li{
+        display: flex;
+        margin: 23px 0;
+        font-size: 23px;
+    }
+    .UsFl{
+        display: flex;
+        top: 31%;
+        margin-left: 0%;
+    }
+    .Eng{
+        display: flex;
+        top: 38%;
+        margin-left: 2%;
+    }
+    .FrFl{
+        display: flex;
+        top: 70%;
+        margin-left: 0%;
+    }
+    .Fr{
+        display: flex;
+        top: 74%;
+        margin-left: 2%;
+    }
+    .BrFl{
+        display: flex;
+        top: 99%;
+        margin-left: 0%;
+    }
+    .Br{
+        display: flex;
+        top: 105%;
+        margin-left: 2%;
+    }
+    .JapFl{
+        display: flex;
+        top: 133%;
+        margin-left: 0%;
+    }
+    .Jap{
+        display: flex;
+        top: 139%;
+        margin-left: 0%;
+    }
+    .glass-bg{
+        display: flex;
+        top: 168%;
+        margin-left: 5%;
+        width: 100%;
+    }
+    .Kermit{
+        display: flex;
+        top: 162%;
+        margin-left: 40%;
+    }
+    .titleK{
+        
+        display: flex;
+        top: 175%;
+        margin-left: 4%;
+    }
+    .quizL{
+        display: flex;
+        top: 248%;
+    }
+    p5{
+        display: flex;
+        top: 247%;
+    }
+    .flag{
+        display: flex;
+        top: 257%;
+    }
+    p6{
+        display: flex;
+        top: 269%;
+    }
+    .brain{
+        display: flex;
+        top: 279%;
+    }
+    p7{
+        display: flex;
+        top: 289%;
+    } 
+}
+/*Responsive Iphone 11 Pro Max 414 x 896*/
+@media screen and (max-width: 414px) and (max-height: 896px) {
+    h1{
+        position: absolute;
+        display: flex;
+        left: 23%;        
+    }
+    .navbar{
+        padding: 0%;
+    }
+    .logo{
+        position: absolute;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;   
+        top: 33px;
+        left: 3%;
+    }
+    .btn{
+        display: none;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgba(0, 0, 255, 0.619);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 90vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.8s ease-in-out;
+    }
+    .nav-links.mobile-menu{
+        margin-left: 0;
+    }
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .menu-hamburger{
+    display: block;
+    position: absolute;
+    top: 33px;
+    right: 30px;
+    width: 35px;
+    z-index: 1;
+    cursor: pointer;
+    }
+    .nav-links ul li{
+        display: flex;
+        margin: 23px 0;
+        font-size: 23px;
+    }
+    .UsFl{
+        display: flex;
+        top: 31%;
+        margin-left: 0%;
+    }
+    .Eng{
+        display: flex;
+        top: 38%;
+        margin-left: 2%;
+    }
+    .FrFl{
+        display: flex;
+        top: 67%;
+        margin-left: 0%;
+    }
+    .Fr{
+        display: flex;
+        top: 74%;
+        margin-left: 2%;
+    }
+    .BrFl{
+        display: flex;
+        top: 99%;
+        margin-left: 0%;
+    }
+    .Br{
+        display: flex;
+        top: 105%;
+        margin-left: 2%;
+    }
+    .JapFl{
+        display: flex;
+        top: 127%;
+        margin-left: 0%;
+    }
+    .Jap{
+        display: flex;
+        top: 133%;
+        margin-left: 0%;
+    }
+    .glass-bg{
+        display: flex;
+        top: 168%;
+        margin-left: 0%;
+        width: 100%;
+    }
+    .Kermit{
+        display: flex;
+        top: 162%;
+        margin-left: 40%;
+    }
+    .titleK{        
+        display: flex;
+        top: 175%;
+        margin-left: 4%;
+    }
+    .quizL{
+        display: flex;
+        top: 228%;
+    }
+    p5{
+        display: flex;
+        top: 239%;
+    }
+    .flag{
+        display: flex;
+        top: 245%;
+    }
+    p6{
+        display: flex;
+        top: 256%;
+    }
+    .brain{
+        display: flex;
+        top: 265%;
+    }
+    p7{
+        display: flex;
+        top: 274%;
+    } 
+    
+    
+}
+/*Responsive Iphone 11 Pro 375 x 812*/
+@media screen and (max-width: 375px) and (max-height: 812px) {
+    h1{
+        position: absolute;
+        display: flex;
+        left: 23%;        
+    }
+    .navbar{
+        padding: 0%;
+    }
+    .logo{
+        position: absolute;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;   
+        top: 33px;
+        left: 3%;
+    }
+    .btn{
+        display: none;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgba(0, 0, 255, 0.619);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 90vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.8s ease-in-out;
+    }
+    .nav-links.mobile-menu{
+        margin-left: 0;
+    }
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .menu-hamburger{
+    display: block;
+    position: absolute;
+    top: 33px;
+    right: 30px;
+    width: 35px;
+    z-index: 1;
+    cursor: pointer;
+    }
+    .nav-links ul li{
+        display: flex;
+        margin: 23px 0;
+        font-size: 23px;
+    }
+    .UsFl{
+        display: flex;
+        top: 31%;
+        margin-left: 0%;
+    }
+    .Eng{
+        display: flex;
+        top: 38%;
+        margin-left: 2%;
+    }
+    .FrFl{
+        display: flex;
+        top: 70%;
+        margin-left: 0%;
+    }
+    .Fr{
+        display: flex;
+        top: 78%;
+        margin-left: 2%;
+    }
+    .BrFl{
+        display: flex;
+        top: 102%;
+        margin-left: 0%;
+    }
+    .Br{
+        display: flex;
+        top: 108%;
+        margin-left: 2%;
+    }
+    .JapFl{
+        display: flex;
+        top: 135%;
+        margin-left: 0%;
+    }
+    .Jap{
+        display: flex;
+        top: 142%;
+        margin-left: 0%;
+    }
+    .glass-bg{
+        display: flex;
+        top: 168%;
+        margin-left: 0%;
+        width: 100%;
+    }
+    .Kermit{
+        display: flex;
+        top: 162%;
+        margin-left: 40%;
+    }
+    .titleK{        
+        display: flex;
+        top: 175%;
+        margin-left: 4%;
+    }
+    .quizL{
+        display: flex;
+        top: 238%;
+    }
+    p5{
+        display: flex;
+        top: 250%;
+    }
+    .flag{
+        display: flex;
+        top: 260%;
+    }
+    p6{
+        display: flex;
+        top: 270%;
+    }
+    .brain{
+        display: flex;
+        top: 280%;
+    }
+    p7{
+        display: flex;
+        top: 290%;
+    } 
+    
+}
+/*Responsive Iphone 11 414 x 896*/
+@media screen and (max-width: 414px) and (max-height: 896px) {
+    h1{
+        position: absolute;
+        display: flex;
+        left: 23%;        
+    }
+    .navbar{
+        padding: 0%;
+    }
+    .logo{
+        position: absolute;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;   
+        top: 33px;
+        left: 3%;
+    }
+    .btn{
+        display: none;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgba(0, 0, 255, 0.619);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 90vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.8s ease-in-out;
+    }
+    .nav-links.mobile-menu{
+        margin-left: 0;
+    }
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .menu-hamburger{
+    display: block;
+    position: absolute;
+    top: 33px;
+    right: 30px;
+    width: 35px;
+    z-index: 1;
+    cursor: pointer;
+    }
+    .nav-links ul li{
+        display: flex;
+        margin: 23px 0;
+        font-size: 23px;
+    }
+    .UsFl{
+        display: flex;
+        top: 31%;
+        margin-left: 0%;
+    }
+    .Eng{
+        display: flex;
+        top: 38%;
+        margin-left: 2%;
+    }
+    .FrFl{
+        display: flex;
+        top: 68%;
+        margin-left: 0%;
+    }
+    .Fr{
+        display: flex;
+        top: 76%;
+        margin-left: 2%;
+    }
+    .BrFl{
+        display: flex;
+        top: 99%;
+        margin-left: 0%;
+    }
+    .Br{
+        display: flex;
+        top: 105%;
+        margin-left: 2%;
+    }
+    .JapFl{
+        display: flex;
+        top: 127%;
+        margin-left: 0%;
+    }
+    .Jap{
+        display: flex;
+        top: 133%;
+        margin-left: 0%;
+    }
+    .glass-bg{
+        display: flex;
+        top: 168%;
+        margin-left: 0%;
+        width: 100%;
+    }
+    .Kermit{
+        display: flex;
+        top: 162%;
+        margin-left: 40%;
+    }
+    .titleK{        
+        display: flex;
+        top: 175%;
+        margin-left: 4%;
+    }
+    .quizL{
+        display: flex;
+        top: 228%;
+    }
+    p5{
+        display: flex;
+        top: 240%;
+    }
+    .flag{
+        display: flex;
+        top: 247%;
+    }
+    p6{
+        display: flex;
+        top: 258%;
+    }
+    .brain{
+        display: flex;
+        top: 267%;
+    }
+    p7{
+        display: flex;
+        top: 276%;
+    } 
+}
+/*Responsive Iphone XR (2018) 414 x 896*/
+@media screen and (max-width: 414px) and (max-height: 896px) {
+    h1{
+        position: absolute;
+        display: flex;
+        left: 23%;        
+    }
+    .navbar{
+        padding: 0%;
+    }
+    .logo{
+        position: absolute;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;   
+        top: 33px;
+        left: 3%;
+    }
+    .btn{
+        display: none;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgba(0, 0, 255, 0.619);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 90vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.8s ease-in-out;
+    }
+    .nav-links.mobile-menu{
+        margin-left: 0;
+    }
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .menu-hamburger{
+    display: block;
+    position: absolute;
+    top: 33px;
+    right: 30px;
+    width: 35px;
+    z-index: 1;
+    cursor: pointer;
+    }
+    .nav-links ul li{
+        display: flex;
+        margin: 23px 0;
+        font-size: 23px;
+    }
+    .UsFl{
+        display: flex;
+        top: 31%;
+        margin-left: 0%;
+    }
+    .Eng{
+        display: flex;
+        top: 38%;
+        margin-left: 2%;
+    }
+    .FrFl{
+        display: flex;
+        top: 68%;
+        margin-left: 0%;
+    }
+    .Fr{
+        display: flex;
+        top: 76%;
+        margin-left: 2%;
+    }
+    .BrFl{
+        display: flex;
+        top: 99%;
+        margin-left: 0%;
+    }
+    .Br{
+        display: flex;
+        top: 105%;
+        margin-left: 2%;
+    }
+    .JapFl{
+        display: flex;
+        top: 127%;
+        margin-left: 0%;
+    }
+    .Jap{
+        display: flex;
+        top: 133%;
+        margin-left: 0%;
+    }
+    .glass-bg{
+        display: flex;
+        top: 168%;
+        margin-left: 0%;
+        width: 100%;
+    }
+    .Kermit{
+        display: flex;
+        top: 162%;
+        margin-left: 40%;
+    }
+    .titleK{        
+        display: flex;
+        top: 175%;
+        margin-left: 4%;
+    }
+    .quizL{
+        display: flex;
+        top: 228%;
+    }
+    p5{
+        display: flex;
+        top: 240%;
+    }
+    .flag{
+        display: flex;
+        top: 247%;
+    }
+    p6{
+        display: flex;
+        top: 258%;
+    }
+    .brain{
+        display: flex;
+        top: 267%;
+    }
+    p7{
+        display: flex;
+        top: 276%;
+    }  
+}
+/*Responsive Iphone X 375 x 812*/
+@media screen and (max-width: 375px) and (max-height: 812px) {
+    h1{
+        position: absolute;
+        display: flex;
+        left: 23%;        
+    }
+    .navbar{
+        padding: 0%;
+    }
+    .logo{
+        position: absolute;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;   
+        top: 33px;
+        left: 3%;
+    }
+    .btn{
+        display: none;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgba(0, 0, 255, 0.619);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 90vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.8s ease-in-out;
+    }
+    .nav-links.mobile-menu{
+        margin-left: 0;
+    }
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .menu-hamburger{
+    display: block;
+    position: absolute;
+    top: 33px;
+    right: 30px;
+    width: 35px;
+    z-index: 1;
+    cursor: pointer;
+    }
+    .nav-links ul li{
+        display: flex;
+        margin: 23px 0;
+        font-size: 23px;
+    }
+    .UsFl{
+        display: flex;
+        top: 31%;
+        margin-left: 0%;
+    }
+    .Eng{
+        display: flex;
+        top: 38%;
+        margin-left: 2%;
+    }
+    .FrFl{
+        display: flex;
+        top: 68%;
+        margin-left: 0%;
+    }
+    .Fr{
+        display: flex;
+        top: 76%;
+        margin-left: 2%;
+    }
+    .BrFl{
+        display: flex;
+        top: 99%;
+        margin-left: 0%;
+    }
+    .Br{
+        display: flex;
+        top: 105%;
+        margin-left: 2%;
+    }
+    .JapFl{
+        display: flex;
+        top: 133%;
+        margin-left: 0%;
+    }
+    .Jap{
+        display: flex;
+        top: 140%;
+        margin-left: 0%;
+    }
+    .glass-bg{
+        display: flex;
+        top: 168%;
+        margin-left: 0%;
+        width: 100%;
+    }
+    .Kermit{
+        display: flex;
+        top: 162%;
+        margin-left: 40%;
+    }
+    .titleK{        
+        display: flex;
+        top: 175%;
+        margin-left: 4%;
+    }
+    .quizL{
+        display: flex;
+        top: 235%;
+    }
+    p5{
+        display: flex;
+        top: 247%;
+    }
+    .flag{
+        display: flex;
+        top: 257%;
+    }
+    p6{
+        display: flex;
+        top: 269%;
+    }
+    .brain{
+        display: flex;
+        top: 279%;
+    }
+    p7{
+        display: flex;
+        top: 289%;
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
+

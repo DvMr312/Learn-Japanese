@@ -1,0 +1,1593 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+body{
+    background-color: rgb(239, 153, 250);
+    font-family: 'Poppins';
+    
+}
+
+.navbar{    
+    position: absolute;
+    padding: 30px;    
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;  
+      
+    
+}
+
+.logo{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;   
+}
+
+.navbar.nav-links{
+    position: absolute;
+    display: flex;
+    margin-right: 700px;
+    
+}
+
+.nav-links a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;    
+        
+}
+
+.nav-links li:hover {
+    text-decoration: none;
+    transform: scale(1.05);
+    -webkit-transition-duration: 0.5s;  
+    transition-duration: 0.5s;  
+    
+}
+
+.nav-links li a:hover {
+    color: rgb(99, 99, 249);
+}
+
+.nav-links ul {
+    display: flex;  
+    font-weight: bold;
+            
+}
+
+.nav-links ul li{
+    display: flex;
+    margin: 0 23px;
+}
+
+.nav-links .btn{
+    position: absolute;
+    margin: 0 23px;
+    background: #1E90FF;    
+    width: 100px;
+    padding: 10px;
+    right: 435px;
+    top: 28px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;    
+    transition-property: box-shadow, transform;
+}
+
+.btn:hover, .btn.focus, .btn:active{
+    box-shadow: 0 0 20px rgba(0, 107, 222, 0.496);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    
+}
+
+h1 {
+    position: relative;
+    margin-left: 150px;
+    top: 150px;
+}
+
+pre{
+    position: relative;
+    margin-left: 120px;
+    top: 150px;
+    font-family: 'Poppins';
+}
+
+.btn2{
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.Btn2 .btn2{
+    position: absolute;        
+    background: #1E90FF;    
+    width: 100px;
+    padding: 10px;
+    left: 149px;
+    top: 359px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;    
+    transition-property: box-shadow, transform;
+}
+
+.btn2:hover, .btn2.focus, .btn2:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.496);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.quizL{
+    position: absolute;
+    display: flex; 
+    top: 659px;   
+    margin-left: 150px;  
+}
+
+p5{
+    position: absolute;
+    display: flex;
+    top: 759px;
+    margin-left: 160px;
+}
+
+.flag {
+    position: absolute;
+    display: flex; 
+    top: 659px;   
+    margin-left: 750px;
+}
+
+p6{
+    position: absolute;
+    display: flex;
+    top: 759px;
+    margin-left: 759px;
+}
+
+.brain{
+    position: absolute;
+    display: flex;
+    top: 659px;
+    margin-left: 1359px;
+}
+
+p7{
+    position: absolute;
+    display: flex;
+    top: 759px;
+    margin-left: 1359px;
+}
+
+.saku {
+    position: absolute;
+    display: flex;
+    top: 100px;
+}
+
+.navbar .menu-hamburger{
+    display: none;
+    position: absolute;
+    top: 33px;
+    right: 30px;
+    width: 35px;
+}
+
+
+
+
+
+/*-----------------------------RESPONSIVE-----------------*/
+
+
+/*--------------------------Responsive Desktop Laptop-------------------*/
+/*Responsive size 1629 x 850px*/
+@media screen and (max-width: 1629px) and (max-height: 850px) {
+    .quizL{
+        position: absolute;
+        display: flex;
+        margin-left: 2%;
+        top: 60%;
+    }
+    p5{
+        position: absolute;
+        display: flex;
+        margin-left: 2%;
+        top: 72%;
+    }
+    .flag{
+        position: absolute;
+        display: flex;
+        margin-left: 52%;
+        top: 60%;
+    }
+    p6{
+        position: absolute;
+        display: flex;
+        top: 610px;
+        margin-left: 52%;
+        top: 72%;
+    }
+    .brain{
+        position: absolute;
+        display: flex;
+        margin-left: 3%;
+        top: 77%;
+    }
+    p7{
+        position: absolute;
+        display: flex;
+        margin-left: 2%;
+        top: 729px;
+    }
+}
+/*Responsive size 1280 x 950*/
+@media screen and (max-width: 1280px) and (max-height: 950px) {
+    .quizL{
+        position: absolute;
+        display: flex;
+        margin-left: 2%;
+        top: 53%;
+    }
+    p5{
+        position: absolute;
+        display: flex;
+        margin-left: 2%;
+        top: 64%;
+    }
+    .flag{
+        position: absolute;
+        display: flex;
+        margin-left: 2%;
+        top: 68%;
+    }
+    p6{
+        position: absolute;
+        display: flex;
+        margin-left: 2%;
+        top: 79%;
+    }
+    .brain{
+        position: absolute;
+        display: flex;
+        margin-left: 2%;
+        top: 83%;
+    }
+    p7{
+        position: absolute;
+        display: flex;
+        margin-left: 2%;
+        top: 90%;
+    }
+    
+}
+/*Responsive size 1920 x 1080*/
+@media screen and (max-width: 1920px) and (max-height: 1080px) {
+    .navbar .menu-hamburger{
+        display: none;
+    }
+    .quizL{
+        position: absolute;
+        display: flex;
+        margin-left: 2%;
+        top: 79%;
+    }
+    p5{
+        position: absolute;
+        display: flex;
+        margin-left: 2%;
+        top: 89%;
+    }
+    .flag{
+        position: absolute;
+        display: flex;
+        margin-left: 32%;
+        top: 79%;
+    }
+    p6{
+        position: absolute;
+        display: flex;
+        margin-left: 32%;
+        top: 89%;
+    }
+    .brain{
+        position: absolute;
+        display: flex;
+        margin-left: 74%;
+        top: 81%;
+
+    }
+    p7{
+        position: absolute;
+        display: flex;
+        margin-left: 74%;
+        top: 89%;
+    }
+  
+    
+}
+/*Responsive size 1280 x 800*/
+@media screen and (max-width: 1280px) and (max-height:800px) {
+    .quizL{
+        position: absolute;
+        display: flex;
+        margin-left: 2%;
+        top: 52%;
+    }
+    .flag{
+        position: absolute;
+        display: flex;
+        margin-left: 2%;
+        top: 68%;
+    }
+    p6{
+        position: absolute;
+        display: flex;
+        margin-left: 2%;
+        top: 80%;
+    }
+    .brain{
+        position: absolute;
+        display: flex;
+        margin-left: 2%;
+        top: 84%;
+    }
+    p7{
+        position: absolute;
+        display: flex;
+        margin-left: 2%;
+        top: 92%;
+    }
+    
+}
+/*Responsive size 1630 x 944*/
+@media screen and (max-width: 1630px) and (max-height: 944px){
+    .quizL{
+        position: absolute;
+        display: flex;
+        margin-left: 2%;
+        top: 59%;
+    }
+    p5{
+        position: absolute;
+        display: flex;
+        margin-left: 2%;
+        top: 69%;
+    }   
+    .flag{
+        position: absolute;
+        display: flex;
+        margin-left: 2%;
+        top: 73%;
+    }
+    p6{
+        position: absolute;
+        display: flex;
+        margin-left: 2%;
+        top: 83%;
+    }   
+    .brain{
+        position: absolute;
+        display: flex;
+        margin-left: 3%;
+        top: 88%;
+    }
+    p7{
+        position: absolute;
+        display: flex;
+        margin-left: 2%;
+        top: 95%;
+
+    }
+        
+    
+}
+/*Responsive size 1440 x 900*/
+@media screen and (max-width: 1440px) and (max-height:900px) {
+    .quizL{
+        position: absolute;
+        display: flex;
+        margin-left: 2%;
+        top: 54%;
+
+    }
+    p5{
+        position: absolute;
+        display: flex;
+        margin-left: 2%;
+        top: 65%;
+    }
+    .flag{
+        position: absolute;
+        display: flex;
+        margin-left: 2%;
+        top: 69%;
+    }
+    p6{
+        position: absolute;
+        display: flex;
+        margin-left: 2%;
+        top: 80%;
+    }
+    .brain{
+        position: absolute;
+        display: flex;
+        margin-left: 3%;
+        top: 84%;
+    }
+    p7{
+        position: absolute;
+        display: flex;
+        margin-left: 2%;
+        top: 92%;
+    }
+    
+}
+
+
+/*---------------Responsive Tablets and IPad--------------*/
+/*Responsive size Ipad Pro 1024 x 1366*/
+@media screen and (max-width: 1024px) and (max-height: 1366px) {
+    .navbar{
+        padding: 0%;
+    }
+    .logo{
+        position: absolute;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 25px;   
+        top: 33px;
+        left: 3%;
+    }
+    .btn{
+        display: none;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgba(0, 0, 255, 0.619);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.8s ease-in-out;
+    }
+    .nav-links.mobile-menu{
+        margin-left: 0;
+    }
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .menu-hamburger{
+    display: block;
+    position: absolute;
+    top: 33px;
+    right: 30px;
+    width: 35px;
+    z-index: 1;
+    cursor: pointer;
+    }
+    .nav-links ul li{
+        display: flex;
+        margin: 23px 0;
+        font-size: 23px;
+    }
+    .quizL{
+        position: absolute;
+        display: flex;
+        top: 61%;
+        margin-left: 2%;
+    }
+    p5{
+        position: absolute;
+        display: flex;
+        top: 69%;
+        margin-left: 2%;
+    }
+    .flag{
+        position: absolute;
+        display: flex;
+        top: 74%;
+        margin-left: 2%;
+    }
+    p6{
+        position: absolute;
+        display: flex;
+        top: 82%;
+        margin-left: 2%;
+    }
+    .brain{
+        position: absolute;
+        display: flex;
+        top: 86%;
+        margin-left: 4%;
+    }
+    p7{
+        position: absolute;
+        display: flex;
+        top: 91%;
+        margin-left: 2%;
+    }
+}
+/*Responsive size 848 x 850*/
+@media screen and (max-width: 848px) and (max-height: 850px) {
+    .navbar{
+        padding: 0%;
+    }
+    .logo{
+        position: absolute;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;   
+        top: 33px;
+        left: 3%;
+    }
+    .btn{
+        display: none;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgba(0, 0, 255, 0.619);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.8s ease-in-out;
+    }
+    .nav-links.mobile-menu{
+        margin-left: 0;
+    }
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .menu-hamburger{
+    display: block;
+    position: absolute;
+    top: 33px;
+    right: 30px;
+    width: 35px;
+    z-index: 1;
+    cursor: pointer;
+    }
+    .nav-links ul li{
+        display: flex;
+        margin: 23px 0;
+        font-size: 23px;
+    }
+    .quizL{
+        display: flex;
+        top: 54%;
+    }
+    p5{
+        display: flex;
+        top: 66%;
+    }
+    .flag{
+        display: flex;
+        top: 70%;
+    }
+    p6{
+        display: flex;
+        top: 81%;
+    }
+    .brain{
+        display: flex;
+        top: 85%;
+        margin-left: 4.5%;
+    }
+    p7{
+        position: absolute;
+        display: flex;
+        top: 93%;
+    }
+}
+/*Responsive size IPad Pro 834x1112*/
+@media screen and (max-width: 834px) and (max-height: 1112px) {
+    .navbar{
+        padding: 0%;
+    }
+    .logo{
+        position: absolute;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;   
+        top: 33px;
+        left: 3%;
+    }
+    .btn{
+        display: none;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgba(0, 0, 255, 0.619);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.8s ease-in-out;
+    }
+    .nav-links.mobile-menu{
+        margin-left: 0;
+    }
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .menu-hamburger{
+    display: block;
+    position: absolute;
+    top: 33px;
+    right: 30px;
+    width: 35px;
+    z-index: 1;
+    cursor: pointer;
+    }
+    .nav-links ul li{
+        display: flex;
+        margin: 23px 0;
+        font-size: 23px;
+    }
+    .quizL{
+        display: flex;
+        top: 58%;
+        margin-left: 2%;
+    }
+    p5{
+        display: flex;
+        top: 68%;
+        margin-left: 2%;
+    }
+    .flag{
+        display: flex;
+        top: 72%;
+        margin-left: 2%;
+    }
+    p6{
+        display: flex;
+        top: 81%;
+        margin-left: 2%;
+    }
+    .brain{
+        display: flex;
+        top: 85%;
+        margin-left: 4.5%;
+    }
+    p7{
+        display: flex;
+        top: 91%;
+        margin-left: 2%;
+    }
+}
+/*Responsive size Ipad Air 820 x 1180*/
+@media screen and (max-width: 828px) and (max-height: 1180px) {
+    .navbar{
+        padding: 0%;
+    }
+    .logo{
+        position: absolute;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        font-size: 25px;   
+        top: 33px;
+        left: 3%;
+    }
+    .btn{
+        display: none;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgba(0, 0, 255, 0.619);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.8s ease-in-out;
+    }
+    .nav-links.mobile-menu{
+        margin-left: 0;
+    }
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .menu-hamburger{
+    display: block;
+    position: absolute;
+    top: 33px;
+    right: 30px;
+    width: 35px;
+    z-index: 1;
+    cursor: pointer;
+    }
+    .nav-links ul li{
+        display: flex;
+        margin: 23px 0;
+        font-size: 23px;
+    }
+    .quizL{
+        display: flex;
+        top: 60%;
+    }
+    p5{
+        position: absolute;
+        display: flex;
+        top: 69%;
+    }
+    .flag{
+        position: absolute;
+        display: flex;
+        top: 73%;
+    }
+    p6{
+        position: absolute;
+        display: flex;
+        top: 82%;
+    }
+    .brain{
+        position: absolute;
+        display: flex;
+        top: 86%;
+    }
+    p7{
+        position: absolute;
+        display: flex;
+        top: 92%;
+    }
+}
+/*Responsive size Ipad Mini et Ipad 768 x 1024*/
+@media screen and (max-width: 768px) and (max-height: 1024px)  {
+    .navbar{
+        padding: 0%;
+    }
+    .logo{
+        position: absolute;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;   
+        top: 33px;
+        left: 3%;
+    }
+    .btn{
+        display: none;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgba(0, 0, 255, 0.619);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.8s ease-in-out;
+    }
+    .nav-links.mobile-menu{
+        margin-left: 0;
+    }
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .menu-hamburger{
+    display: block;
+    position: absolute;
+    top: 33px;
+    right: 30px;
+    width: 35px;
+    z-index: 1;
+    cursor: pointer;
+    }
+    .nav-links ul li{
+        display: flex;
+        margin: 23px 0;
+        font-size: 23px;
+    }
+    .quizL{
+        display: flex;
+        top: 56%;
+    }
+    p5{
+        display: flex;
+        top: 66%;
+    }
+    .flag{
+        display: flex;
+        top: 70%;
+        margin-left: 2%;
+    }
+    p6{
+        display: flex;
+        top: 79%;
+        margin-left: 2%;
+    }
+    .brain{
+        display: flex;
+        top: 85%;
+        margin-left: 4.5%;
+    }
+    p7{
+        position: absolute;
+        top: 92%;
+        display: flex;
+        margin-left: 2%;
+    }
+}
+
+
+/*---------------Responsive Mobile--------------*/
+
+/*Responsive Iphone 12 Pro Max 428 x 926*/
+@media screen and (max-width: 428px) and (max-height: 926px) {
+    h1{
+        position: absolute;
+        display: flex;
+        top: 25%;
+        margin-left: 2%;
+        font-size: 30px;
+    }
+    pre{
+        position: absolute;
+        display: flex;
+        top: 37%;
+        margin-left: -4%;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .Btn2{
+        position: absolute;
+        display: flex;
+        top: -1%;
+        margin-left: -32%;
+    }
+    .quizL{
+        position: absolute;
+        display: flex;
+        width: 80px;
+        top: 56%;
+    }
+    p5{        
+        position: absolute;
+        display: flex;
+        top: 66%;
+        font-size: 15px;
+    }
+    .flag{
+        position: absolute;
+        display: flex;
+        width: 80px;
+        top: 72%;
+    }
+    p6{        
+        position: absolute;
+        display: flex;
+        top: 83%;
+        font-size: 15px;
+    }
+    .brain{
+        position: absolute;
+        display: flex;
+        width: 60px;
+        top: 90%;
+    }
+    p7{
+        position: absolute;
+        display: flex;
+        top: 98%;
+        font-size: 15px;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgba(0, 0, 255, 0.619);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 110vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.8s ease-in-out;
+    }
+}
+/*Responsive Iphone 12 Pro 390 x 844*/
+@media screen and (max-width: 390px) and (max-height: 844px) {
+    h1{
+        position: absolute;
+        display: flex;
+        top: 25%;
+        margin-left: 2%;
+        font-size: 30px;
+    }
+    pre{
+        position: absolute;
+        display: flex;
+        top: 38%;
+        margin-left: -5%;
+        font-size: 11px;
+        font-weight: 700;
+    }
+    .Btn2{
+        position: absolute;
+        display: flex;
+        top: -5%;
+        margin-left: -35%;
+    }
+    .quizL{
+        position: absolute;
+        display: flex;
+        width: 80px;
+        top: 57%;
+    }
+    p5{        
+        position: absolute;
+        display: flex;
+        top: 68%;
+    }
+    .flag{
+        position: absolute;
+        display: flex;
+        width: 73px;
+        top: 75%;
+    }
+    p6{        
+        position: absolute;
+        display: flex;
+        top: 85%;
+    }
+    .brain{
+        position: absolute;
+        display: flex;
+        width: 60px;
+        top: 95%;
+    }
+    p7{
+        position: absolute;
+        display: flex;
+        top: 102%;
+        margin-left: 2%;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgba(0, 0, 255, 0.619);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 110vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.8s ease-in-out;
+    }
+}
+/*Responsive Iphone 12 390 x 844*/
+@media screen and (max-width: 390px) and (max-height: 844px) {
+    h1{
+        position: absolute;
+        display: flex;
+        top: 25%;
+        margin-left: 2%;
+        font-size: 30px;
+    }
+    pre{
+        position: absolute;
+        display: flex;
+        top: 38%;
+        margin-left: -5%;
+        font-size: 11px;
+        font-weight: 700;
+    }
+    .Btn2{
+        display: flex;
+        top: -15%;
+        margin-left: -35%;
+    }
+    .quizL{
+        position: absolute;
+        display: flex;
+        width: 80px;
+        top: 57%;
+    }
+    p5{        
+        position: absolute;
+        display: flex;
+        top: 68%;
+    }
+    .flag{
+        position: absolute;
+        display: flex;
+        width: 73px;
+        top: 75%;
+    }
+    p6{        
+        position: absolute;
+        display: flex;
+        top: 85%;
+    }
+    .brain{
+        position: absolute;
+        display: flex;
+        width: 60px;
+        top: 95%;
+    }
+    p7{
+        position: absolute;
+        display: flex;
+        top: 102%;
+        margin-left: 2%;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgba(0, 0, 255, 0.619);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 110vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.8s ease-in-out;
+    }
+}
+/*Responsive Iphone 12 Pro Mini 360 x 780*/
+@media screen and (max-width: 360px) and (max-height: 780px) {
+    .logo{
+        position: absolute;
+        display: flex;
+        font-size: 20px;
+        top: 36px;
+    }
+    .saku{
+        position: absolute;
+        display: flex;
+        top: 70px;
+    }
+    h1{
+        position: absolute;
+        display: flex;
+        top: 26%;
+        margin-left: 2%;
+        font-size: 30px;
+    }
+    pre{
+        position: absolute;
+        display: flex;
+        top: 38%;
+        margin-left: -5%;
+        font-size: 11px;
+        font-weight: 700;
+    }
+    .Btn2{
+        position: absolute;
+        display: flex;
+        top: -10%;
+        margin-left: -40%;
+    }
+    .quizL{
+        position: absolute;
+        display: flex;
+        width: 80px;
+        top: 62%;
+    }
+    p5{        
+        position: absolute;
+        display: flex;
+        top: 74%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .flag{
+        position: absolute;
+        display: flex;
+        width: 73px;
+        top: 81%;
+    }
+    p6{        
+        position: absolute;
+        display: flex;
+        top: 93%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .brain{
+        position: absolute;
+        display: flex;
+        width: 60px;
+        top: 103%;
+    }
+    p7{
+        position: absolute;
+        display: flex;
+        top: 113%;
+        margin-left: 2%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgba(0, 0, 255, 0.619);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 120vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.8s ease-in-out;
+    }
+}
+/*Responsive Iphone 11 Pro Max 414 x 896*/
+@media screen and (max-width: 414px) and (max-height: 896px) {
+    .saku{
+        position: absolute;
+        display: flex;
+        top: 70px;
+    }
+    h1{
+        position: absolute;
+        display: flex;
+        top: 23%;
+        margin-left: 2%;
+        font-size: 30px;
+    }
+    pre{
+        position: absolute;
+        display: flex;
+        top: 36%;
+        margin-left: -2%;
+        font-size: 11px;
+        font-weight: 700;
+    }
+    .Btn2{
+        position: relative;
+        display: flex;
+        top: 6%;
+    }
+    .quizL{
+        position: absolute;
+        display: flex;
+        width: 80px;
+        top: 56%;
+    }
+    p5{        
+        position: absolute;
+        display: flex;
+        top: 66%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .flag{
+        position: absolute;
+        display: flex;
+        width: 73px;
+        top: 72%;
+    }
+    p6{        
+        position: absolute;
+        display: flex;
+        top: 82%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .brain{
+        position: absolute;
+        display: flex;
+        width: 60px;
+        top: 88%;
+    }
+    p7{
+        position: absolute;
+        display: flex;
+        top: 95%;
+        margin-left: 2%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgba(0, 0, 255, 0.619);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 120vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.8s ease-in-out;
+    }
+}
+/*Responsive Iphone 11 Pro 375 x 812*/
+@media screen and (max-width: 375px) and (max-height: 812px) {
+    .saku{
+        position: absolute;
+        display: flex;
+        top: 70px;
+    }
+    h1{
+        position: absolute;
+        display: flex;
+        top: 23%;
+        margin-left: 2%;
+        font-size: 30px;
+    }
+    pre{
+        position: absolute;
+        display: flex;
+        top: 37%;
+        margin-left: -2%;
+        font-size: 11px;
+        font-weight: 700;
+    }
+    .Btn2{
+        position: absolute;
+        display: block;
+        top: -8%;
+    }
+    .quizL{
+        position: absolute;
+        display: flex;
+        width: 80px;
+        top: 59%;
+    }
+    p5{        
+        position: absolute;
+        display: flex;
+        top: 71%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .flag{
+        position: absolute;
+        display: flex;
+        width: 73px;
+        top: 78%;
+    }
+    p6{        
+        position: absolute;
+        display: flex;
+        top: 90%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .brain{
+        position: absolute;
+        display: flex;
+        width: 60px;
+        top: 96%;
+    }
+    p7{
+        position: absolute;
+        display: flex;
+        top: 105%;
+        margin-left: 2%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgba(0, 0, 255, 0.619);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 120vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.8s ease-in-out;
+    }
+}
+/*Responsive Iphone 11 414 x 896*/
+@media screen and (max-width: 414px) and (max-height: 896px) {
+    .saku{
+        position: absolute;
+        display: flex;
+        top: 70px;
+    }
+    h1{
+        position: absolute;
+        display: flex;
+        top: 23%;
+        margin-left: 2%;
+        font-size: 30px;
+    }
+    pre{
+        position: absolute;
+        display: flex;
+        top: 37%;
+        margin-left: -2%;
+        font-size: 11px;
+        font-weight: 700;
+    }
+    .Btn2{
+        position: absolute;
+        display: block;
+        top: -2%;
+    }
+    .quizL{
+        position: absolute;
+        display: flex;
+        width: 80px;
+        top: 59%;
+    }
+    p5{        
+        position: absolute;
+        display: flex;
+        top: 71%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .flag{
+        position: absolute;
+        display: flex;
+        width: 73px;
+        top: 80%;
+    }
+    p6{        
+        position: absolute;
+        display: flex;
+        top: 90%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .brain{
+        position: absolute;
+        display: flex;
+        width: 60px;
+        top: 96%;
+    }
+    p7{
+        position: absolute;
+        display: flex;
+        top: 105%;
+        margin-left: 2%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgba(0, 0, 255, 0.619);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 120vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.8s ease-in-out;
+    }
+}
+/*Responsive Iphone XR 2018 414 x 896*/
+@media screen and (max-width: 414px) and (max-height: 896px) {
+    .saku{
+        position: absolute;
+        display: flex;
+        top: 70px;
+    }
+    h1{
+        position: absolute;
+        display: flex;
+        top: 23%;
+        margin-left: 2%;
+        font-size: 30px;
+    }
+    pre{
+        position: absolute;
+        display: flex;
+        top: 37%;
+        margin-left: -2%;
+        font-size: 11px;
+        font-weight: 700;
+    }
+    .Btn2{
+        position: absolute;
+        display: block;
+        top: -2%;
+    }
+    .quizL{
+        position: absolute;
+        display: flex;
+        width: 80px;
+        top: 59%;
+    }
+    p5{        
+        position: absolute;
+        display: flex;
+        top: 71%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .flag{
+        position: absolute;
+        display: flex;
+        width: 73px;
+        top: 80%;
+    }
+    p6{        
+        position: absolute;
+        display: flex;
+        top: 90%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .brain{
+        position: absolute;
+        display: flex;
+        width: 60px;
+        top: 96%;
+    }
+    p7{
+        position: absolute;
+        display: flex;
+        top: 105%;
+        margin-left: 2%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgba(0, 0, 255, 0.619);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 120vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.8s ease-in-out;
+    }
+}
+/* Iphone X 2018 375 x 812*/
+@media screen and (max-width: 375px) and (max-height: 812px) {
+    .saku{
+        position: absolute;
+        display: flex;
+        top: 70px;
+    }
+    h1{
+        position: absolute;
+        display: flex;
+        top: 23%;
+        margin-left: 1%;
+        font-size: 30px;
+    }
+    pre{
+        position: absolute;
+        display: flex;
+        top: 37%;
+        margin-left: -4%;
+        font-size: 10px;
+        font-weight: 700;
+    }
+    .Btn2{
+        position: absolute;
+        display: block;
+        top: -8%;
+    }
+    .quizL{
+        position: absolute;
+        display: flex;
+        width: 80px;
+        top: 59%;
+    }
+    p5{        
+        position: absolute;
+        display: flex;
+        top: 71%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .flag{
+        position: absolute;
+        display: flex;
+        width: 73px;
+        top: 80%;
+    }
+    p6{        
+        position: absolute;
+        display: flex;
+        top: 90%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .brain{
+        position: absolute;
+        display: flex;
+        width: 60px;
+        top: 96%;
+    }
+    p7{
+        position: absolute;
+        display: flex;
+        top: 105%;
+        margin-left: 2%;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: rgba(0, 0, 255, 0.619);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 120vh; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.8s ease-in-out;
+    }
+}

@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;    
+}
+
+body{
+    background-color: rgb(239, 153, 250);
+    font-family: 'Poppins';
+    
+}
+
+.navbar{    
+    position: absolute;
+    padding: 30px;    
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;       
+    
+}
+
+.logo{
+    color: white;
+    font-weight: bold;
+    font-size: 25px; 
+}
+
+.navbar.nav-links{
+    position: absolute;
+    display: flex;
+    margin-right: 700px;
+    
+}
+
+.nav-links a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;    
+        
+}
+
+.nav-links li:hover {
+    text-decoration: none;
+    transform: scale(1.05);
+    -webkit-transition-duration: 0.5s;    
+    transition-duration: 0.5s;
+    
+}
+
+.nav-links li a:hover {
+    color: rgb(99, 99, 249);
+}
+
+.nav-links ul {
+    display: flex;  
+    font-weight: bold;
+            
+}
+
+.nav-links ul li{
+    margin: 0 23px;
+}
+
+.app{
+    position: absolute;
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 13%;
+    left: 33%;
+}
+
+.app h1{
+    padding-bottom: 30px;
+}
+
+.quiz{
+    padding: 20px 0;
+}
+.quiz h2{
+    font-size: 19px;
+}
+.btn{
+    background: #6f00ff00;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    text-align: left;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 7px 0;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]){
+    background: #22222283;
+    color: #fff;
+}
+
+#next-btn{
+    background: #ad1aba;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins';
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    margin: 10px auto 0;
+    border: 0;
+    width : 150px;
+
+}
+
+.correct{
+    background: #00d73d;
+}
+.incorrect{
+    background: #ff0000b8;
+}
+
